@@ -1,4 +1,4 @@
 # intro-component-signup-form
 Front-end mentor challenge
 
-A signup form made from a challenge by Frontendmentor.com.io
+A signup form made from a challenge by [Frontendmentor.com.io](https://frontendmentor.io)
