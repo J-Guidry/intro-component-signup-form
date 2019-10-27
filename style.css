@@ -27,6 +27,28 @@ header {
     font-weight: 600;
 }
 
+.signup-div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 1px solid  hsl(246, 25%, 77%);
+}
+
+
+
 
 
 
