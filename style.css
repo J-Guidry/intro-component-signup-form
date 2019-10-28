@@ -46,6 +46,7 @@ header {
 .signup-form {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 input {
@@ -86,6 +87,47 @@ button {
     text-decoration: none;
     color: hsl(0, 100%, 74%);
     font-weight: 700;
+}
+
+.errors {
+    margin-bottom: 10px;
+    padding: 0;
+    color: hsl(0, 100%, 74%);
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: right;
+    position: relative;
+    display: none;
+}
+
+.error-display {
+    display: block;
+}
+
+.error-input {
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.error-icon {
+    align-self: flex-end;
+    position:relative;
+    margin-right: 8px;
+    margin-top: -40px;
+    padding: 0;
+    float: right;
+    display:none;
+}
+
+.error-icon-display {
+    display: inline-block;
+}
+
+.input-placeholder::placeholder {
+    opacity: 0;
+}
+
+.lightened-button {
+    background-color: hsl(154, 59%, 70%);;
 }
 
 @media screen and (min-width: 540px) and (max-width: 950px){

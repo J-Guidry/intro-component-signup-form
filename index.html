@@ -23,16 +23,29 @@
         
         <div class="signup-div">
             <form class="signup-form">
-                <input type="text" name="firstname" placeholder="First Name" aria-label="First Name">
-                <input type="text" name="lastname" placeholder="Last Name" aria-label="Last Name">
-                <input type="email" name="email" placeholder="Email Address" aria-label="Email Address">
-                <input type="password" name="password" placeholder="Password" aria-label="Password">
-                <button type="submit">Claim your free trial</button>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" aria-label="First Name" required oninvalid="invalid(event)">
+                <img src="images/icon-error.svg" class="error-icon" alt="error icon">
+                <p class="errors" id="fname-error"><em>First Name cannot be empty</em></p>
+
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" aria-label="Last Name" required oninvalid="invalid(event)">
+                <img src="images/icon-error.svg" class="error-icon" alt="error icon">
+                <p class="errors" id="lname-error"><em>Last Name cannot be empty</em></p>
+
+                <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required oninvalid="invalid(event)">
+                <img src="images/icon-error.svg" class="error-icon" alt="error icon">
+                <p class="errors" id="email-error"><em>Looks like this is not an email</em></p>
+
+                <input type="password" id="password" name="password" placeholder="Password" aria-label="Password" required oninvalid="invalid(event)">
+                <img src="images/icon-error.svg" class="error-icon" alt="error icon">
+                <p class="errors" id="password-error"><em>Password cannot be empty</em></p>
+                
+                <button type="submit" id="submit"><em>Claim your free trial</em></button>
             </form>
             <p class="terms">By clicking the button, you are agreeing to 
                 our <span><a href="#">Terms and Services</a></span>
             </p>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
