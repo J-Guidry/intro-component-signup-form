@@ -122,11 +122,11 @@ button {
     display: inline-block;
 }
 
-.input-placeholder::placeholder {
+.error-input::placeholder {
     opacity: 0;
 }
 
-.lightened-button {
+button:hover {
     background-color: hsl(154, 59%, 70%);;
 }
 
