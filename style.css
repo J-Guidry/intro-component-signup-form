@@ -134,6 +134,7 @@ button:hover {
     body {
         max-width: 65%;
         margin: auto;
+        background-image: url("images/bg-intro-desktop.png");
     }
 }
 
